@@ -1,0 +1,13 @@
+
+
+
+
+train: E:\Panicle-AI\dataset\12m\train12m\
+val: E:\Panicle-AI\dataset\12m\val12m\
+test: E:\Panicle-AI\dataset\12m\test12m\
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'tip' ]

@@ -1,0 +1,16 @@
+
+
+## train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: E:\yolo5\20mm\dataset\train/
+val: E:\yolo5\20mm\dataset\val\ # 128 images
+test: E:\yolo5\20mm\dataset\test/
+
+
+
+
+#val: E:\tzx-yolov5-master\VOCdevkit\VOC2008\labels\part\allcloud/
+# number of classes
+nc: 1
+
+# class names
+names: [ 'tip' ]
