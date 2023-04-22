@@ -1,4 +1,4 @@
-Panicle-Cloud: an open and AI-powered cloud computing platform for quantifying rice panicles from drone-collected imagery to enable the classification of yield production in rice
+##Panicle-Cloud: an open and AI-powered cloud computing platform for quantifying rice panicles from drone-collected imagery to enable the classification of yield production in rice
 
 Zixuan Teng1#, Jiawei Chen2#, Jian Wang3#, Shuixiu Wu1, 4, Riqing Chen1, Yaohai Lin1, Liyan Shen2, Robert Jackson5, Ji Zhou2, 5*, Changcai Yang1, 6*
 
