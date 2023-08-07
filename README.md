@@ -11,7 +11,7 @@ Zixuan Teng<sup>1*</sup>, Jiawei Chen<sup>2*</sup>, Jian Wang<sup>3*</sup>, Shui
 
 <sup>5</sup>Cambridge Crop Research, National Institute of Agricultural Botany (NIAB), Cambridge CB3 0LE, UK
 
-<sup>6</sup>Key Laboratory of Smart Agriculture and Forestry (Fujian Agriculture and Forestry University), Fujian Province University, Fuzhou 350002, China\
+<sup>6</sup>Key Laboratory of Smart Agriculture and Forestry (Fujian Agriculture and Forestry University), Fujian Province University, Fuzhou 350002, China
 
 ## Install Python, Anaconda and Libraries
 If you wish to run Panicle-AI from source code, you will need to set up Python on your operating system. 
@@ -43,19 +43,19 @@ If you wish to run Panicle-AI from source code, you will need to set up Python o
    • Panicle-AI uses a number of 3rd-party libraries that you may need to add to your conda environment.
    These include, but are not limited to:
    
-   matplotlib>=3.2.2
-   numpy>=1.18.5
-   opencv-python>=4.1.2
-   Pillow>=7.1.2
-   PyYAML>=5.3.1
-   requests>=2.23.0
-   scipy>=1.4.1
-   torch>=1.7.0
-   torchvision>=0.8.1
-   tqdm>=4.41.0
-   tensorboard>=2.4.1
-   pandas>=1.1.4
-   seaborn>=0.11.0
+      matplotlib>=3.2.2
+      numpy>=1.18.5
+      opencv-python>=4.1.2
+      Pillow>=7.1.2
+      PyYAML>=5.3.1
+      requests>=2.23.0
+      scipy>=1.4.1
+      torch>=1.7.0
+      torchvision>=0.8.1
+      tqdm>=4.41.0
+      tensorboard>=2.4.1
+      pandas>=1.1.4
+      seaborn>=0.11.0
 
    
 ## Running Panicle-cloud GUI
