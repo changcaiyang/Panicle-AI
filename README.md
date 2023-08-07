@@ -22,8 +22,10 @@ DRPD dataset contained 5,372 RGB sub-images cropped from raw aerial imagery take
 |   GSD | Images | Labels | panicles per sub-image |
 | :---- | ----: | :----: | :----: |
 | GSD<sub>7m</sub> | 3,810 | 106,878 | 27-30 | 
+| :---- | ----: | :----: | :----: |
  
 | GSD<sub>12m</sub> | 1004 | 71,404 | 65-70 |
+| :---- | ----: | :----: | :----: |
  
 | GSD<sub>20m</sub> | 558 | 81,216 | 140-150 |
 
