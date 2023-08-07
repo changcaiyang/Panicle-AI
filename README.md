@@ -18,11 +18,11 @@ DRPD dataset contained 5,372 RGB sub-images cropped from raw aerial imagery take
 
 The DRPD dataset consisted of: 
 
-•	Images acquired at 7-m altitude (i.e. GSD7m), including 106,878 labeled rice panicles and 3,810 rice sub-images (27-30 panicles per sub-image).
-
-•	Images acquired at 12-m altitude (i.e. GSD12m), including 71,404 labeled rice panicles and 1,004 sub-images (65-70 panicles per sub-image).
-
-•	Images acquired at 20-m altitude (i.e. GSD20m), including 558 sub-images and 81,216 labeled rice panicles (140-150 panicles per sub-image).
+   •	Images acquired at 7-m altitude (i.e. GSD7m), including 106,878 labeled rice panicles and 3,810 rice sub-images (27-30 panicles per sub-image).
+   
+   •	Images acquired at 12-m altitude (i.e. GSD12m), including 71,404 labeled rice panicles and 1,004 sub-images (65-70 panicles per sub-image).
+   
+   •	Images acquired at 20-m altitude (i.e. GSD20m), including 558 sub-images and 81,216 labeled rice panicles (140-150 panicles per sub-image).
 
 ## Install Python, Anaconda and Libraries
 If you wish to run Panicle-AI from source code, you will need to set up Python on your operating system. 
