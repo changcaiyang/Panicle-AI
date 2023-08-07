@@ -14,7 +14,7 @@ Zixuan Teng<sup>1*</sup>, Jiawei Chen<sup>2*</sup>, Jian Wang<sup>3*</sup>, Shui
 <sup>6</sup>Key Laboratory of Smart Agriculture and Forestry (Fujian Agriculture and Forestry University), Fujian Province University, Fuzhou 350002, China
 、
 ## DRPD dataset
-The DRPD dataset contained 5,372 RGB images cropped from raw aerial images and 259,498 labeled rice panicles from 229 rice varieties, covering different panicle developmental and morphological features at four growth stages and across 12 geo-locations in Asia and North America. More importantly, we identified the preferred GSD for panicle phenotyping (GSD7m = 0.08-0.09 cm px-1) and thus the bigger portion of the labelled rice panicles in the DRPD dataset. Similar to GWHD, we envisage that the DRPD dataset could also be widely used to facilitate the algorithmic development of rice panicle and panicle-like object detection, facilitating yield-based rice phenotyping and related breeding or agronomic activities.
+DRPD dataset contained 5,372 RGB sub-images cropped from raw aerial imagery taken at three different altitudes, i.e. GSD7m, GSD12m, and GSD20m. In total, DRPD included 259,498 labeled rice panicles with varied morphological features collected at four key growth stages, i.e. heading (1,903 sub-images), flowering (1,676 sub-images), early grain filling (1,235 sub-images), and middle grain filling (558 sub-images). The DRPD dataset consisted of: (1) images acquired at 7-m altitude (i.e. GSD7m), including 106,878 labeled rice panicles and 3,810 rice sub-images (27-30 panicles per sub-image), (2) at 12-m altitude (i.e. GSD12m), including 71,404 labeled rice panicles and 1,004 sub-images (65-70 panicles per sub-image), and (3) at 20-m altitude (i.e. GSD20m), including 558 sub-images and 81,216 labeled rice panicles (140-150 panicles per sub-image).
 
 ## Install Python, Anaconda and Libraries
 If you wish to run Panicle-AI from source code, you will need to set up Python on your operating system. 
@@ -59,7 +59,8 @@ If you wish to run Panicle-AI from source code, you will need to set up Python o
          pandas>=1.1.4
          seaborn>=0.11.0
     •  You can get the required environment through the following :
-         Pip install requirement.tx1t
+
+         pip install requirement.txt
 
    
 ## Running Panicle-cloud GUI
