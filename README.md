@@ -43,19 +43,19 @@ If you wish to run Panicle-AI from source code, you will need to set up Python o
    • Panicle-AI uses a number of 3rd-party libraries that you may need to add to your conda environment.
    These include, but are not limited to:
    
-      matplotlib>=3.2.2
-      numpy>=1.18.5
-      opencv-python>=4.1.2
-      Pillow>=7.1.2
-      PyYAML>=5.3.1
-      requests>=2.23.0
-      scipy>=1.4.1
-      torch>=1.7.0
-      torchvision>=0.8.1
-      tqdm>=4.41.0
-      tensorboard>=2.4.1
-      pandas>=1.1.4
-      seaborn>=0.11.0
+         matplotlib>=3.2.2
+         numpy>=1.18.5
+         opencv-python>=4.1.2
+         Pillow>=7.1.2
+         PyYAML>=5.3.1
+         requests>=2.23.0
+         scipy>=1.4.1
+         torch>=1.7.0
+         torchvision>=0.8.1
+         tqdm>=4.41.0
+         tensorboard>=2.4.1
+         pandas>=1.1.4
+         seaborn>=0.11.0
 
    
 ## Running Panicle-cloud GUI
