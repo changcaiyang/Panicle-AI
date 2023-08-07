@@ -1,16 +1,63 @@
-# Panicle-Cloud: an open and AI-powered cloud computing platform for quantifying rice panicles from drone-collected imagery to enable the classification of yield production in rice
+# AirMeasurer
 
-Zixuan Teng1#, Jiawei Chen2#, Jian Wang3#, Shuixiu Wu1, 4, Riqing Chen1, Yaohai Lin1, Liyan Shen2, Robert Jackson5, Ji Zhou2, 5*, Changcai Yang1, 6*
+Gang Sun<sup>1*</sup>, Jie Zhou<sup>1</sup>, Qiang Zhao<sup>2</sup>, Bin Han<sup>2</sup>, Ji Zhou<sup>1,3*</sup>
 
-1Digital Fujian Research Institute of Big Data for Agriculture and Forestry, College of Computer and Information Sciences, Fujian Agriculture and Forestry University, Fuzhou 350002, China.
-2State Key Laboratory of Crop Genetics & Germplasm Enhancement, academy for Advanced Interdisciplinary Studies, Nanjing Agricultural University, Nanjing 210095, China
-3Ningxia Academy of Agriculture and Forestry Sciences, Yinchuan 750002, China
-4College of Mechanical and Electrical Engineering, Fujian Agriculture and Forestry University, Fuzhou 350002, China
-5Cambridge Crop Research, National Institute of Agricultural Botany (NIAB), Cambridge CB3 0LE, UK
-6Key Laboratory of Smart Agriculture and Forestry (Fujian Agriculture and Forestry University), Fujian Province University, Fuzhou 350002, China
+<sup>1</sup>State Key Laboratory of Crop Genetics & Germplasm Enhancement, College of Agriculture, Academy for Advanced Interdisciplinary Studies, Jiangsu Collaborative Innovation Center for Modern Crop Production Co-sponsored by Province and Ministry, Nanjing Agricultural University, Nanjing 210095, China;
 
-#These authors contributed equally to this work.
-*Correspondence should be addressed to Ji Zhou and Changcai Yang; 
-Email: Ji.zhou@njau.edu.cn, or Ji.zhou@niab.com; changcaiyang@fafu.edu.cn
+<sup>2</sup>National Center for Gene Research, CAS Center for Excellence in Molecular Plant Sciences, Chinese Academy of Sciences, Shanghai 200233, China;
 
+<sup>3</sup>Cambridge Crop Research, National Institute of Agricultural Botany, Cambridge CB3 0LE, UK;
 
+<sup>*</sup>Correspondence for the source code and GUI software: 2018101176@njau.edu.cn; Ji.Zhou@NJAU.edu.cn or Ji.Zhou@NIAB.com
+
+## Install Python, Anaconda and Libraries
+If you wish to run AirMeasurer from source code, you will need to set up Python on your operating system. 
+
+1. Install Python releases:
+   
+   •	Read the beginner’s guide to Python if you are new to the language: 
+   https://wiki.python.org/moin/BeginnersGuide
+   
+   •	For Windows users, Python 3 release can be downloaded via: 
+   https://www.python.org/downloads/windows/
+   
+   •	For Mac OS users, Python 3 release can be downloaded via: 
+   https://www.python.org/downloads/mac-osx/
+   
+   •	AirMeasurer only supports Python 3 onwards
+
+2. Install Anaconda Python distribution:
+   
+   •	Read the install instruction using the URL: https://docs.continuum.io/anaconda/install
+   
+   •	For Windows users, a detailed step-by-step installation guide can be found via: 
+   https://docs.continuum.io/anaconda/install/windows 
+   
+   •	For Mac OS users, a detailed step-by-step installation guide can be found via:
+   https://docs.continuum.io/anaconda/install/mac-os.html
+   
+   •	An Anaconda Graphical installer can be found via: 
+   https://www.continuum.io/downloads
+
+   •	We recommend users install the latest Anaconda Python distribution
+
+3. Install packages:
+
+   • AirMeasurer uses a number of 3rd-party libraries that you may need to add to your conda environment.
+   These include, but are not limited to:
+   
+       Laspy=1.7.0
+       Whitebox==1.3.0
+       GDAL=3.2.1
+       Rasterio=1.2.0
+       CSF=1.1.1
+       Scikit-image=0.16.2
+       Opencv-contrib-python==3.4.2.16
+       Matplotlib =3.1.3
+       Pandas=1.0.1
+       Numpy=1.18.1
+       Scipy=1.4.1
+   
+## Running AirMeasurer GUI
+
+A Windows executable file (.exe) can be downloaded from the latest release together with a compressed file (AirMeasurer.zip).
