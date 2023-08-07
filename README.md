@@ -14,19 +14,15 @@ Zixuan Teng<sup>1*</sup>, Jiawei Chen<sup>2*</sup>, Jian Wang<sup>3*</sup>, Shui
 <sup>6</sup>Key Laboratory of Smart Agriculture and Forestry (Fujian Agriculture and Forestry University), Fujian Province University, Fuzhou 350002, China
 、
 ## DRPD dataset
-DRPD dataset contained 5,372 RGB sub-images cropped from raw aerial imagery taken at three different altitudes, i.e. GSD7m, GSD12m, and GSD20m. 
-
-In total, DRPD included 259,498 labeled rice panicles with varied morphological features collected at four key growth stages:
-
-heading (1,903 sub-images), flowering (1,676 sub-images), early grain filling (1,235 sub-images), and middle grain filling (558 sub-images). 
+DRPD dataset contained 5,372 RGB sub-images cropped from raw aerial imagery taken at three different altitudes, i.e. GSD7m, GSD12m, and GSD20m. In total, DRPD included 259,498 labeled rice panicles with varied morphological features collected at four key growth stages: heading (1,903 sub-images), flowering (1,676 sub-images), early grain filling (1,235 sub-images), and middle grain filling (558 sub-images). 
 
 The DRPD dataset consisted of: 
 
-(1) Images acquired at 7-m altitude (i.e. GSD7m), including 106,878 labeled rice panicles and 3,810 rice sub-images (27-30 panicles per sub-image).
+•	Images acquired at 7-m altitude (i.e. GSD7m), including 106,878 labeled rice panicles and 3,810 rice sub-images (27-30 panicles per sub-image).
 
-(2) Images acquired at 12-m altitude (i.e. GSD12m), including 71,404 labeled rice panicles and 1,004 sub-images (65-70 panicles per sub-image).
+•	Images acquired at 12-m altitude (i.e. GSD12m), including 71,404 labeled rice panicles and 1,004 sub-images (65-70 panicles per sub-image).
 
-(3) Images acquired at 20-m altitude (i.e. GSD20m), including 558 sub-images and 81,216 labeled rice panicles (140-150 panicles per sub-image).
+•	Images acquired at 20-m altitude (i.e. GSD20m), including 558 sub-images and 81,216 labeled rice panicles (140-150 panicles per sub-image).
 
 ## Install Python, Anaconda and Libraries
 If you wish to run Panicle-AI from source code, you will need to set up Python on your operating system. 
