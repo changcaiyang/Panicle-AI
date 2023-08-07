@@ -16,16 +16,6 @@ Zixuan Teng<sup>1*</sup>, Jiawei Chen<sup>2*</sup>, Jian Wang<sup>3*</sup>, Shui
 ## DRPD dataset
 DRPD dataset contained 5,372 RGB sub-images cropped from raw aerial imagery taken at three different altitudes, i.e. GSD7m, GSD12m, and GSD20m. In total, DRPD included 259,498 labeled rice panicles with varied morphological features collected at four key growth stages: heading (1,903 sub-images), flowering (1,676 sub-images), early grain filling (1,235 sub-images), and middle grain filling (558 sub-images). 
 
-      •	The DRPD dataset consisted of: 
-
-      | GSD | #Images | #Labels | #panicles per sub-image | 
-      | :---: | :---: | :---: | :---: | 
-      | GSD<sub>7m</sub> | 3,810 | 106,878 | 27-30 | 
-      | :---: | :---: | :---: | :---: | :---: | 
-      | GSD<sub>12m</sub> | 1004 | 71,404 | 65-70 |
-      | :---: | :---: | :---: | :---: | :---: | 
-      | GSD<sub>20m</sub> | 558 | 81,216 | 140-150 |
-
 
         •	The DRPD dataset consisted of: 
 
