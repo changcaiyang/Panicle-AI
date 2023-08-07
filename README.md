@@ -43,18 +43,21 @@ If you wish to run Panicle-AI from source code, you will need to set up Python o
    • Panicle-AI uses a number of 3rd-party libraries that you may need to add to your conda environment.
    These include, but are not limited to:
    
-       Laspy=1.7.0
-       Whitebox==1.3.0
-       GDAL=3.2.1
-       Rasterio=1.2.0
-       CSF=1.1.1
-       Scikit-image=0.16.2
-       Opencv-contrib-python==3.4.2.16
-       Matplotlib =3.1.3
-       Pandas=1.0.1
-       Numpy=1.18.1
-       Scipy=1.4.1
+   matplotlib>=3.2.2
+   numpy>=1.18.5
+   opencv-python>=4.1.2
+   Pillow>=7.1.2
+   PyYAML>=5.3.1
+   requests>=2.23.0
+   scipy>=1.4.1
+   torch>=1.7.0
+   torchvision>=0.8.1
+   tqdm>=4.41.0
+   tensorboard>=2.4.1
+   pandas>=1.1.4
+   seaborn>=0.11.0
+
    
 ## Running Panicle-cloud GUI
 
-A Windows executable file (.exe) can be downloaded from the latest release together with a compressed file (AirMeasurer.zip).
+Integrated six AI models were compatible with the cloud-based runtime environment into the platform (http://ai-panicle.com:32123), including Panicle-AI, YOLOv5, VFNet, FCOS, GFLv2, and RetinaNet.
