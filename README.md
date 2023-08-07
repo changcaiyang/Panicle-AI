@@ -12,6 +12,9 @@ Zixuan Teng<sup>1*</sup>, Jiawei Chen<sup>2*</sup>, Jian Wang<sup>3*</sup>, Shui
 <sup>5</sup>Cambridge Crop Research, National Institute of Agricultural Botany (NIAB), Cambridge CB3 0LE, UK
 
 <sup>6</sup>Key Laboratory of Smart Agriculture and Forestry (Fujian Agriculture and Forestry University), Fujian Province University, Fuzhou 350002, China
+、
+## DRPD dataset
+The DRPD dataset contained 5,372 RGB images cropped from raw aerial images and 259,498 labeled rice panicles from 229 rice varieties, covering different panicle developmental and morphological features at four growth stages and across 12 geo-locations in Asia and North America. More importantly, we identified the preferred GSD for panicle phenotyping (GSD7m = 0.08-0.09 cm px-1) and thus the bigger portion of the labelled rice panicles in the DRPD dataset. Similar to GWHD, we envisage that the DRPD dataset could also be widely used to facilitate the algorithmic development of rice panicle and panicle-like object detection, facilitating yield-based rice phenotyping and related breeding or agronomic activities.
 
 ## Install Python, Anaconda and Libraries
 If you wish to run Panicle-AI from source code, you will need to set up Python on your operating system. 
@@ -40,8 +43,7 @@ If you wish to run Panicle-AI from source code, you will need to set up Python o
 
 3. Install packages:
 
-   • Panicle-AI uses a number of 3rd-party libraries that you may need to add to your conda environment.
-   These include, but are not limited to:
+   •  Panicle-AI uses a number of 3rd-party libraries that you may need to add to your conda environment.
    
          matplotlib>=3.2.2
          numpy>=1.18.5
@@ -56,6 +58,8 @@ If you wish to run Panicle-AI from source code, you will need to set up Python o
          tensorboard>=2.4.1
          pandas>=1.1.4
          seaborn>=0.11.0
+    •  You can get the required environment through the following :
+         Pip install requirement.tx1t
 
    
 ## Running Panicle-cloud GUI
