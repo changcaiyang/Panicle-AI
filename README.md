@@ -1,4 +1,4 @@
-# Panicle-cloud
+# Panicle-AI
 Zixuan Teng<sup>1*</sup>, Jiawei Chen<sup>2*</sup>, Jian Wang<sup>3*</sup>, Shuixiu Wu<sup>4</sup>, Riqing Chen<sup>1</sup>, Liyan Shen<sup>2</sup>,  Robert Jackson<sup>5</sup>, Ji Zhou<sup>2,5*</sup>, Changcai Yang<sup>1,6*</sup>
 
 <sup>1</sup>Digital Fujian Research Institute of Big Data for Agriculture and Forestry, College of Computer and Information Sciences, Fujian Agriculture and Forestry University, Fuzhou 350002, China.
